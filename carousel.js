@@ -1,3 +1,5 @@
+'use strict';
+
 var presentImage = document.querySelector('.carousel-image');
 
 // 우측 버튼
