@@ -76,6 +76,11 @@ h1 {
   vertical-align: middle;
 }
 
+.carousel-dots {
+  text-align: center;
+  margin: 0 auto;
+}
+
 .carousel-dot {
   background-color: transparent;
   border-style: none;
@@ -84,4 +89,9 @@ h1 {
   line-height: 2.5;
   margin: 0 15px;
   color: grey;
+}
+
+.carousel-dot:focus {
+  color: black;
+  outline: none;
 }
